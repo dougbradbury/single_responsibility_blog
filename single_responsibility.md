@@ -1,7 +1,7 @@
 Single Responsibility Principle
 ===============================
 
-The Single Responsibility Principle (SRP) is the first of Uncle Bob's SOLID principles, and is perhaps the most important to follow when writing good, clean software. By adhering to the SOLID principles, we can set ourselves up for success in the future, since we're creating code that is more easily maintained, and extended as our project evolves. In a nutshell, the SRP states that each software entity we create should have one, and only one, reason for changing.
+The Single Responsibility Principle (SRP) is the first of the SOLID principles, and is perhaps the most important to follow when writing good, clean software. By adhering to the SOLID principles, we can set ourselves up for success in the future, since we're creating code that is more easily maintained, and extended as our project evolves. In a nutshell, the SRP states that each software entity we create should have one, and only one, reason for changing.
 
 Traditionally, we think of a 'responsibility' as a state of dealing with or having control over a specific issue. So, we may think of a software entity's responsibility as needing to take care of a very specific problem within our system.  Though this definition is true in software design, we can also introduce the idea that a responsibility is a *reason for change*. In other words, our software entities (classes, methods, etc.) should never need to change for a reason that is not related to its central purpose.
 
